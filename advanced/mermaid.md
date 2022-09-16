@@ -1,4 +1,4 @@
-## Enabling Mermaid
+## Enabling Mermaid Alpha One
 
 Mermaid is an engine that enables you to draw beautiful, highly detailed SVG diagrams and flowcharts 
 using Markdown. It is supported out of the box on developer documentation portal.
@@ -60,9 +60,8 @@ graph TD;
 ``````
 
 Renders
-My modified version:
 
-```
+```mermaid
 flowchart TD
    subgraph "TEST.gitlab-ci.yml"
    s1[lint-job] --- s2[depcheck-job]
