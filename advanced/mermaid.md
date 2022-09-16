@@ -135,16 +135,6 @@ flowchart LR
 	 j1[job]
 	 end
  end
- classDef J fill:#ffd,stroke:#cc7;
-		class j1,j2,j3 J;
-	 classDef A fill:#ddd,stroke:#eee;
-	 class a1 A;
-	 classDef F fill:#fff,stroke:#226;
-	 class File,Legend F;
-	 classDef C fill:#fff,stroke:#226,stroke-dasharray: 5 5;
-	 class Compliance-Framework,Stage C;
-	 classDef N fill:#eef,stroke:#226;
-	 class n1,n2 N;
 ```
 
 ## Examples
