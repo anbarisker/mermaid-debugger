@@ -118,25 +118,6 @@ flowchart TD
 
 # My name is Jeff
 
-```mermaid
-flowchart LR
- subgraph "Legend"
- direction LR
- n1(start) --- a1["user's task"] ---&gt; j1
- j1 -...-> j2
- j3 --> n2(end)
-		subgraph "Compliance-Framework"
-			subgraph "Stage"
-			j2[optional-job*] --> j3[job]
-			end
-	 end
-	 subgraph "File"
-	 direction LR
-	 j1[job]
-	 end
- end
-```
-
 ## Examples
 
 ### Flowcharts
