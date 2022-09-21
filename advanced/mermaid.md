@@ -109,7 +109,8 @@ flowchart TD
    subgraph ".gitlab-ci.yml"
    r2 -.-> j9
    j9 -.-> p1
-   end   n1([start]) --- a1["Update variables in .gitlab-ci.yml and project's CICD settings"] --> j1
+   end
+   n1([start]) --- a1["Update variables in .gitlab-ci.yml and project's CICD settings"] --> j1
    d3 --> n2([end])
    classDef default fill:#ffd,stroke:#cc7;
    classDef A fill:#ddd,stroke:#eee;
