@@ -128,6 +128,7 @@ Example 2
 ```mermaid
 flowchart LR
 	subgraph "Legend"
+	direction LR
 		n1(['start']) --- a1["user's task"] --> j1
 		j1 -...-> j2
 		j3 --> n2(end)
