@@ -1,4 +1,4 @@
-## Enabling Mermaid Alpha One
+## Enabling Mermaid Alpha Two
 
 Mermaid is an engine that enables you to draw beautiful, highly detailed SVG diagrams and flowcharts
 using Markdown. It is supported out of the box on developer documentation portal.
@@ -120,4 +120,33 @@ flowchart TD
    class Webapp-Compliance,.pre,Static-test,Runtime-test,Sign,Deploy-to-prod C;
    classDef N fill:#eef,stroke:#226;
    class n1,n2 N;
+```
+
+```mermaid
+flowchart LR
+	subgraph "Legend"
+	direction LR
+	n1(start) --- a1["user's task"] ---&gt; j1
+	j1 -...-> j2
+	j3 --> n2(end)
+	subgraph "Compliance-Framework"
+		subgraph "Stage"
+		j2[optional-job*] --> j3[job]
+		end
+	end
+	subgraph "File"
+	direction LR
+	j1[job]
+	end
+	end  
+	classDef J fill:#ffd,stroke:#cc7;
+	class j1,j2,j3 J;
+	classDef A fill:#ddd,stroke:#eee;
+	class a1 A;
+	classDef F fill:#fff,stroke:#226;
+	class File,Legend F;
+	classDef C fill:#fff,stroke:#226,stroke-dasharray: 5 5;
+	class Compliance-Framework,Stage C;
+	classDef N fill:#eef,stroke:#226;
+	class n1,n2 N;
 ```
