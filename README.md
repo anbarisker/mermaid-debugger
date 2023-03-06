@@ -2,6 +2,11 @@
 
 With this portal, developers like you can write project documentation with markdown files, in your own git repositories. They are then automatically synced and published to the documentation portal.
 
+<ifigure>
+<iframe title="YouTubeVideoPlayer" src="
+https://youtu.be/embed/gJ0U0w7C628?showinfo=0" height="315" width="560" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</ifigure>
+
 ## Why do I have to write technical documentation?
 
 Technical documentation is crucial for your users to understand and use your software and its APIs. It helps you support customers better while significantly [improving the satisfaction of your users with your product.](https://www.sciencedirect.com/science/article/abs/pii/037872069090063N)
